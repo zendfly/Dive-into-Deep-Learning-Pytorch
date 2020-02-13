@@ -14,7 +14,7 @@
 
 隐藏层，权重$W_h\subseteq R^{n \times s} $，偏执$b_h \subseteq R^{1 \times s}$‘，$s$为个数；
 
-输出层，权重$W_o \subseteq R^{n \times q}$，偏执$b_o \subseteq R^{1 \times q}$，$q$为个数。
+输出层，权重$W_o \subseteq R^{h \times q}$，偏执$b_o \subseteq R^{1 \times q}$，$q$为个数。
 
 各层的计算：
 
